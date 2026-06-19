@@ -1,10 +1,10 @@
-# 🚗 Australian Vehicle Price Prediction
+#  Australian Vehicle Price Prediction
 
 Proyecto de Data Science que aplica **Random Forest** y **Extra-Trees Regressor** para predecir el precio de vehículos usados en el mercado australiano, comparando el rendimiento de ambos modelos mediante métricas estándar de regresión.
 
 ---
 
-## 📌 Pregunta de Negocio
+##  Pregunta de Negocio
 
 > **¿Es posible predecir el precio de un vehículo en Australia a partir de sus características técnicas y de uso?**
 
@@ -12,7 +12,7 @@ Variables como el año, los kilómetros recorridos, el tipo de motor, la transmi
 
 ---
 
-## 🗂️ Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```
 australian-vehicle-price-prediction/
@@ -27,7 +27,7 @@ australian-vehicle-price-prediction/
 
 ---
 
-## 🔧 Metodología
+##  Metodología
 
 ### 1. Limpieza y Preprocesamiento
 - Eliminación de registros sin precio (variable objetivo)
@@ -44,11 +44,11 @@ australian-vehicle-price-prediction/
 
 ### 3. Modelos Entrenados
 
-#### 🌲 Random Forest Regressor
+####  Random Forest Regressor
 - `n_estimators=100`, `random_state=42`
 - División train/test: 80/20
 
-#### 🌳 Extra-Trees Regressor
+####  Extra-Trees Regressor
 - `n_estimators=100`, `max_depth=15`, `random_state=42`, `n_jobs=1`
 - Mismo split para comparación directa
 
@@ -67,7 +67,7 @@ Se visualizó el **Top 10 de características más influyentes** en la predicci�
 
 ---
 
-## 🚀 Cómo Ejecutar
+##  Cómo Ejecutar
 
 ### 1. Clonar el repositorio
 ```bash
@@ -87,7 +87,7 @@ jupyter notebook RandomForest_and_ExtraTrees.ipynb
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 | Herramienta | Uso |
 |-------------|-----|
@@ -99,7 +99,7 @@ jupyter notebook RandomForest_and_ExtraTrees.ipynb
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Fuente:** Australian Vehicle Prices (Kaggle)
 - **Registros:** ~16.700 vehículos
@@ -115,7 +115,7 @@ jupyter notebook RandomForest_and_ExtraTrees.ipynb
 
 ---
 
-## 👤 Autor
+##  Autor
 
 **Matías Mora Poblete**  
 Estudiante de Ingeniería Civil Industrial — Universidad Diego Portales  
